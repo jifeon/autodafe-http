@@ -1,0 +1,30 @@
+{
+    "name": "autodafe",
+    "description": "A component for autodafe providing HTTP connection to application",
+    "keywords": ["autodafe", "http"],
+    "homepage": "http://autodafe.ws",
+    "version": "1.0.0",
+    "author": "Andrey Balakirev <balakirev.andrey@gmail.com>",
+    "contributors": [ "Vladimir Balakirev <bvlvl2003@rambler.ru>" ],
+    "main": "./lib/HTTPConnection",
+    "bugs": {
+        "url": "https://github.com/jifeon/autodafe-http/issues",
+        "email": "balakirev.andrey@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jifeon/autodafe-http.git"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
+    "scripts": {
+        "test": "vows tests/vows/* --spec"
+    },
+    "devDependencies": {
+        "vows": ">=0.5.8"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    }
+}
