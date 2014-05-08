@@ -75,6 +75,7 @@ vows.describe('http server').addBatch({
         'should not fall on a start': function () {
             assert.doesNotThrow(function () {
                 require('../apps/http_app').getApp({
+                    path: '../../../',
                     port: simpleAppPort
                 });
             });
@@ -92,6 +93,7 @@ vows.describe('http server').addBatch({
         'should not fall on a start': function () {
             assert.doesNotThrow(function () {
                 require('../apps/http_app').getApp({
+                    path: '../../../',
                     port: basicAuthAppPort,
                     basicAuth: {
                         message: 'Private zone',

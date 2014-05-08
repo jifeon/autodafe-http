@@ -1,4 +1,4 @@
-var autodafe = require('autodafe');
+var autodafe = require('../../../../autodafe');
 
 module.exports = {
     getApp: function (httpConfig) {
