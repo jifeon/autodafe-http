@@ -21,6 +21,9 @@
     "scripts": {
         "test": "vows tests/vows/* --spec"
     },
+    "dependencies": {
+        "http-auth": "2.1.6"
+    },
     "devDependencies": {
         "vows": ">=0.5.8"
     },
