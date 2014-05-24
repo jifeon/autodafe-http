@@ -15,12 +15,11 @@ module.exports = {
             name: 'test'
         });
 
-        component.processRequest = function (request, callback) {
+        component.processRequest = function (request) {
             if (request.getPath() == '/action') {
                 var params = request.getParams();
                 request.end(params['param1'] + ',' + params['param2']);
             }
-            callback();
         };
 
         app.load(component);
