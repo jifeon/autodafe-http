@@ -1,36 +1,42 @@
 {
-    "name": "autodafe-http",
-    "description": "A component for autodafe providing HTTP connection to application",
-    "keywords": ["autodafe", "http"],
-    "homepage": "http://autodafe.ws",
-    "version": "1.0.0",
-    "author": "Andrey Balakirev <balakirev.andrey@gmail.com>",
-    "contributors": [ "Vladimir Balakirev <bvlvl2003@rambler.ru>" ],
-    "main": "./lib/HTTPConnection",
-    "bugs": {
-        "url": "https://github.com/jifeon/autodafe-http/issues",
-        "email": "balakirev.andrey@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/jifeon/autodafe-http.git"
-    },
-    "directories": {
-        "lib": "./lib"
-    },
-    "scripts": {
-        "test": "vows tests/vows/* --spec"
-    },
-    "dependencies": {
-        "http-auth": "2.1.6"
-    },
-    "devDependencies": {
-        "vows": ">=0.5.8"
-    },
-    "peerDeendencies": {
-        "autodafe": "1.0.0"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    }
+  "name": "autodafe-http",
+  "description": "A component for autodafe providing HTTP connection to application",
+  "keywords": [
+    "autodafe",
+    "http"
+  ],
+  "homepage": "http://autodafe.ws",
+  "version": "1.0.0",
+  "author": "Andrey Balakirev <balakirev.andrey@gmail.com>",
+  "contributors": [
+    "Vladimir Balakirev <bvlvl2003@rambler.ru>"
+  ],
+  "main": "./lib/HTTPConnection",
+  "bugs": {
+    "url": "https://github.com/jifeon/autodafe-http/issues",
+    "email": "balakirev.andrey@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jifeon/autodafe-http.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "vows tests/vows/* --spec"
+  },
+  "dependencies": {
+    "cookie": "^0.2.3",
+    "http-auth": "2.1.6"
+  },
+  "devDependencies": {
+    "vows": ">=0.5.8"
+  },
+  "peerDeendencies": {
+    "autodafe": "1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }
